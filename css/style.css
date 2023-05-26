@@ -210,7 +210,7 @@ body{
     color: #404bbf;
 }
 .section{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), rgba(46, 47, 66, 0.7), url(../images/people-office-1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.png);
     max-width: 1440px;
     height: 600px;
     left: 0px;
