@@ -409,9 +409,7 @@ img{
     top: 24px;
 }
 .index-main-customers{
-    width: 1128px;
-    height: 200px;
-    margin: 0;
+
 }
 .cutomers-h{
     font-family: 'Roboto';
@@ -421,6 +419,7 @@ img{
     line-height: 1.11;
     color: #2E2F42;
     margin-bottom: 72px;
+    margin-top: 0;
 }
 .header-nav-list{
     display: flex;
@@ -436,6 +435,8 @@ img{
     list-style: none;
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 .index-main-customers-list-li{
     width: 168px;
