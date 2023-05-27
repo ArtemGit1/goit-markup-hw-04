@@ -411,7 +411,7 @@ img{
 .index-main-customers{
     width: 1128px;
     height: 200px;
-    margin: 120px 156px;
+    margin: 0;
 }
 .cutomers-h{
     font-family: 'Roboto';
@@ -421,7 +421,6 @@ img{
     line-height: 1.11;
     color: #2E2F42;
     margin-bottom: 72px;
-
 }
 .header-nav-list{
     display: flex;
