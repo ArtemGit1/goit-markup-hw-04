@@ -644,3 +644,10 @@ img{
 .portfolio-footer-list-li-a{
     display: block;
 }
+.portfolio-footer-div{
+    display: flex;
+    align-items: baseline;
+}
+.portfolio-footer-div-div{
+    margin-right: 120px;
+}
