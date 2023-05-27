@@ -422,7 +422,6 @@ img{
     color: #2E2F42;
     width: 183px;
     height: 40px;
-    margin: 120px 446px 72px;
     margin-bottom: 72px;
 }
 .header-nav-list{
@@ -447,7 +446,6 @@ img{
     border-radius: 4px;
 }
 .index-main-customers-list-li-a{
-    display: block;
     width: 100%;
     height: 100%;
     border: 1px solid #8e8f99;
@@ -459,6 +457,7 @@ img{
 }
 .index-main-customers-list-li-a:hover{
     color: #404bbf;
+    border-color: #404bbf;
 }
 .index-main-customers-list-li-a:focus{
     border-color: #404bbf;
