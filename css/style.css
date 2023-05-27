@@ -478,7 +478,7 @@ img{
 
 }
 .index-footer-sn{
-    margin: 0 auto;
+    margin: 0;
 }
 .index-footer-sn-p{
     font-family: 'Roboto';
@@ -489,6 +489,7 @@ img{
     color: #FFFFFF;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 .index-footer-sn-list{
     width: 208px;
@@ -498,6 +499,7 @@ img{
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
+    margin: 0;
 }
 .index-footer-sn-list-li{
     width: 40px;
