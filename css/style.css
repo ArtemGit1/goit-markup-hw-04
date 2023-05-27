@@ -496,7 +496,8 @@ img{
     color: #FFFFFF;
     width: 96px;
     height: 24px;
-
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 .index-footer-sn-list{
     width: 208px;
@@ -516,14 +517,20 @@ img{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index-footer-list-li-a:hover,
+.index-footer-list-li-a:focus{
+    background-color: #31d0aa;
 }
 .index-footer-sn-list-li-svg{
     width: 24px;
     height: 24px;
     margin-left: 8px;
     margin-top: 8px;
-
+    fill: #f4f4fd;
 }
 
 .sec-two{
