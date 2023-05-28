@@ -150,14 +150,12 @@ body{
     padding: 0;
 }
 
-.header-list-1{
+.header-list-one{
     font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     font-size: 16px;
-    padding: 24px 0;
-
 }
 .header-index{
     box-shadow: 0px 2px 1px  rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
@@ -171,6 +169,7 @@ body{
 
 .header-adress{
     font-style: normal;
+    margin-left: auto;
 }
 .header-address-list{
     display: flex;
@@ -184,9 +183,9 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
-
+    display: block;
 }
-.adress-1{
+.adress-one{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -195,7 +194,10 @@ body{
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;  
+    color: #434455;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    display: block;
 }
 
 .index-sec-one-a{
@@ -228,6 +230,8 @@ body{
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-button{
     background-color: #4D5AE5;
@@ -244,6 +248,8 @@ body{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-button:hover,
 .section-button:focus{
@@ -272,7 +278,6 @@ body{
     letter-spacing: 0.02em
 }
 .visually-hidden{
-position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -284,6 +289,17 @@ position: absolute;
   overflow: hidden;
     
 }
+.section-three{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+}
 .section-three-h{
     font-size: 36px;
     line-height: 1.11;
@@ -294,7 +310,6 @@ position: absolute;
 }
 .section-four{
     background-color: #F4F4FD;
-
 }
 .section-fout-list-one{
     background-color: #FFFFFF;
@@ -314,6 +329,7 @@ position: absolute;
     padding: 100px 0;
     width: 1440px;
     height: 312px;
+    margin: 0 auto;
 }
 .logo-span-two{
     color:#f4f4fd;
@@ -390,23 +406,16 @@ img{
     background-color: #404bbf;
 }
 .logo-sec-four-index{
-    width: 16px;
-    height: 16px;
-    margin-left: 12px;
-    margin-top: 12px;
     fill: #f4f4fd;
+}
+.logo-sec-one-index{
+    margin: 0 auto;
 }
 .index-header-nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 40px;
-    
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
 }
 .index-main-customers{
 
@@ -420,12 +429,15 @@ img{
     color: #2E2F42;
     margin-bottom: 72px;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
 }
 .header-nav-list{
     display: flex;
     padding: 24px 0;
     gap: 40px;
-}.index-main-customers{
+}
+.index-main-customers{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -469,13 +481,17 @@ img{
     margin-bottom: 16px;
     fill: currentColor;
 }
+.index-main-customers-list-li-a-svg:hover,
+.index-main-customers-list-li-a-svg:focus
+{
+    fill: #404bbf;
+}
 .index-footer-div{
     display: flex;
     align-items: baseline;
 }
 .index-footer-logo{
     margin-right: 120px;
-
 }
 .index-footer-sn{
     margin: 0;
@@ -521,8 +537,6 @@ img{
 .index-footer-sn-list-li-svg{
     width: 24px;
     height: 24px;
-    margin-left: 8px;
-    margin-top: 8px;
     fill: #f4f4fd;
 }
 
@@ -530,10 +544,6 @@ img{
     padding: 120px 0;
 }
 .sec-two-list{
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
     display: flex;
     gap: 24px;
 }
@@ -541,7 +551,15 @@ img{
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .sec-three{
-    padding-bottom: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .sec-three-list{
     display: flex;
@@ -578,6 +596,7 @@ img{
 }
 .footer-p{
     max-width: 264px;
+    color: #F4F4FD;
 }
 .header-portfolio{
     border-bottom: 1px solid #e7e9fc;
