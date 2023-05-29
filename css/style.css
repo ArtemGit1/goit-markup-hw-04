@@ -415,7 +415,6 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
 }
 .index-main-customers{
 
@@ -537,7 +536,10 @@ img{
 .index-footer-sn-list-li-svg{
     width: 24px;
     height: 24px;
-    fill: #f4f4fd;
+}
+.index-footer-sn-list-li-svg:hover,
+.index-footer-sn-list-li-svg:focus{
+    fill: #4d5ae5;
 }
 
 .sec-two{
@@ -560,6 +562,8 @@ img{
 
     text-align: center;
     letter-spacing: 0.02em;
+    margin: 0;
+    padding-bottom: 120px;
 }
 .sec-three-list{
     display: flex;
@@ -597,6 +601,7 @@ img{
 .footer-p{
     max-width: 264px;
     color: #F4F4FD;
+    line-height: ;
 }
 .header-portfolio{
     border-bottom: 1px solid #e7e9fc;
